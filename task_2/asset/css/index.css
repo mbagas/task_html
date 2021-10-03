@@ -30,14 +30,14 @@ nav a:link {
 
 .form-container {
     text-align: center;
-    padding: 0 10%;
+    padding: 0 5%;
 }
 
 .container {
     text-align: left;
 }
 
-input{
+input[type="text"] {
     display: inline-block;
     margin: 3% 0;
     width: 100%;
@@ -50,6 +50,7 @@ input{
     border: 0ch;
     transition: 0.5s;
     border-radius: 12px;
+    margin: 15px 0px;
 }
 
 .btn:hover {
